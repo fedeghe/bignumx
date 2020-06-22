@@ -1,9 +1,9 @@
 var b = require('../index').Bignumx,
     assert = require('assert');
 
-describe('should work', () => {
-    it('works', () => {
-        var big = new b(10)
-        assert.equal(big.n, 10);
+describe('constructor', () => {
+    it('should convert as expected', () => {
+        var big = b(10)
+        assert.equal(typeof big, "object");
     })
 })
