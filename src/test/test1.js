@@ -12,10 +12,10 @@ describe('constructor', () => {
         assert.equal(big, "10");
     })
     it('should sum as expected positive', () => {
-        var big1 = b('10'),
+        var big1 = b('1000000000000000000000000000000000000000000000000000'),
             big2 = b('222165151435165135135135'),
             s = big1.sum(big2);
-        assert.equal(s, "222165151435165135135145");
+        assert.equal(s, "1000000000000000000000000000222165151435165135135135");
     })
     it('should sum as expected negative', () => {
         var big1 = b('23423423422'),
@@ -38,4 +38,26 @@ describe('constructor', () => {
 
         assert.equal(s.toString(), "-23423423200");
     })
+    it('should sum as expected negative 4', () => {
+        var big1 = b('-222'),
+            big2 = b('23423423422'),
+            s = big1.sum(big2);
+
+        assert.equal(s.toString(), "23423423200");
+    })
+    it('should sum as expected negative 5', () => {
+        var big1 = b('-222'),
+            big2 = b('-23423423422'),
+            s = big1.sum(big2);
+
+        assert.equal(s.toString(), "-23423423644");
+    })
+    it('should sum as expected negative 6', () => {
+        var big1 = b('222'),
+            big2 = b('-23423423422'),
+            s = big1.sum(big2);
+
+        assert.equal(s.toString(), "-23423423200");
+    })
+
 })
