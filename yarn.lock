@@ -733,10 +733,10 @@ malta-umd@^1.0.7:
   resolved "https://registry.yarnpkg.com/malta-umd/-/malta-umd-1.0.7.tgz#8bdac239ca1033249572c5e1e223f5da5f49d27c"
   integrity sha512-UW1jzqqv5OhMP3Z7ZuxRBCJJ1QWhTVSdqO63sPOnrWv+EFFte9vwktDTQBodvSZbPVYfb9EcGV4Abd9NyhRdLg==
 
-malta@^4.1.19:
-  version "4.1.19"
-  resolved "https://registry.yarnpkg.com/malta/-/malta-4.1.19.tgz#0213af7afc66245f75688dd8a931e9f550e7dd8f"
-  integrity sha512-EQT2oG1cKzhPJNBEYvw4UJjY8UdejVpf5WucwarOENKB4hT1A2pD/OzAvX/mlQ9c+OwWndmqjmUHYxvrKBc8kA==
+malta@^4.1.35:
+  version "4.1.35"
+  resolved "https://registry.yarnpkg.com/malta/-/malta-4.1.35.tgz#907cf08ca8970f45dd6410605dd828e1d8a8baa9"
+  integrity sha512-RlzKWVeNyEIp0T4gsI58MmxaDz4y5DHxJOKKjUjBQRstL65+OJUiLT2JR32y7ObzC7fnWRS/TrkCAqgjnhaiSg==
 
 mime-db@1.44.0:
   version "1.44.0"

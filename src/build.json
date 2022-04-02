@@ -1,5 +1,5 @@
 {
     "EXE": "mkdir -p test",
-    "src/test/*.js": "test",
+    "src/test/*.js": "test -plugins=malta-mocha",
     "src/*.js": ". -plugins=malta-umd[name:\"bignumx\"]...malta-header-comment[name:\"src/header.txt\"]...malta-mocha -vars=src/vars.json"
 }
